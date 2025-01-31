@@ -1,0 +1,81 @@
+1  help
+2  help cd
+3  man cd
+4  git --v
+5  git --v
+6  git --v
+7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+8  brew
+9  brew
+10  brew --v
+11  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+12  echo >> /Users/irynayrrr/.zprofile
+13  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/irynayrrr/.zprofile
+14  eval "$(/opt/homebrew/bin/brew shellenv)"
+15  brew
+16  brew install git
+17  cd
+18  cd Desktop
+19  mkdir qaHomework10
+20  cd qaHomework10
+21  history -c && rm ~/.bash_history
+22  git config
+23  git config --global --list
+24  git config --global user.name "Iryna Yrrr"
+25  git config --global user.email "irynayrrr1313@gmail.com"
+26  git config --global --list
+27  ssh-keygen
+28  ssh-keygen
+29  ls .ssh/
+30  cd
+31  ls .ssh/
+32  cat .ssh/id_ed25519.pub
+33  cd
+34  cd Desktop
+35  cd qaHomework10
+36  touch text_ignore.txt
+37  ls
+38  ls
+39  cd ~
+40  cd Desktop
+41  mv text_ignore.txt HW_10
+42  cd HW_10
+43  ls
+44  echo "text_ignore.txt" >> .gitignore
+45  cat .gitignore
+46  git status
+47  git rm --cached text_ignore.txt
+48  git status
+49  cd ~
+50  echo "text_ignore.txt" >> .gitignore
+51  git status
+52  cd Desktop
+53  cd HW_10
+54  git status
+55  cd ~
+56  clear
+57  git clone git@github.com:IrynaYrrr/HW_10.git
+58  touch text_ignore.txt
+59  rm text_ignore.txt
+60  cd HW_10
+61  touch text_ignore.txt
+62  git status
+63  git status
+64  git status
+65  git add .
+66  git commit -m 'add file text_ignore.txt in .gitignore' 
+67  touch main_test.txt
+68  git add .
+69  git commit -m 'create empty file main_test.txt'
+70  git branch develop
+71  git checkout develop
+72  touch develop_test.txt
+73  git add .
+74  git commit -m 'create new brunch develop'
+75  git status
+76  git add .
+77  git commit -m 'add one sentence in file develop_test.txt'
+78  git checkout main
+79  git merge develop
+80  git log
+81  git log
